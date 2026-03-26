@@ -1,15 +1,18 @@
+This project is a relational database system designed to simulate real-world cinema operations, including movie scheduling, ticket booking, staff management, and food court transactions.
 
+Features
 
-This project is a Cinema Management System built using SQL Server. It is designed to manage all core operations of a cinema, including:
+Multi-hall cinema management (6 halls, multiple shows)
+Ticket booking system with seat-based pricing
+Customer accounts and feedback system
+Staff roles and shift scheduling
+Food court purchase tracking
 
-🎥 Movie Listings & Showtimes – Store and retrieve movie details, schedules, and halls.
+Technologies Used
 
-🎟 Bookings & Tickets – Handle customer reservations and ticket issuance.
+SQL (MySQL / PostgreSQL — whichever you used)
 
-🍿 Food Orders – Manage concession stand menu and sales.
+Database Design
 
-👥 Staff & Shifts – Track employee roles, schedules, and responsibilities.
-
-💬 Customer Feedback – Record and analyze audience reviews.
-
-The database consists of 13 interconnected tables with relationships and constraints ensuring data integrity. Complex SQL queries and joins are used for reporting and analytics.
+Normalized up to 3NF
+Includes entities like Movie, Show, Customer, Booking, Ticket, Staff, Order, etc.
