@@ -16,7 +16,7 @@ This project is a relational database system designed to simulate real-world cin
 - Ensures data integrity and reduces redundancy
 
 ## Technologies Used
-- SQL (MySQL)
+- SQL Server
 
 ## Key Queries
 - Revenue generated per movie
