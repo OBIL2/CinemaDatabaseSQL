@@ -229,10 +229,10 @@ Insert Into Movie (Title, Genre, Duration, Language, Rating, ReleaseDate) Values
 ('Mission: Impossible', 'Action', 110, 'English', 4, '1996-05-22'),
 ('Mission: Impossible 2', 'Action', 123, 'English', 4, '2000-05-24'),
 ('Mission: Impossible III', 'Action', 126, 'English', 4, '2006-05-05'),
-('Mission: Impossible – Ghost Protocol', 'Action', 132, 'English', 5, '2011-12-16'),
-('Mission: Impossible – Rogue Nation', 'Action', 131, 'English', 5, '2015-07-31'),
-('Mission: Impossible – Fallout', 'Action', 147, 'English', 5, '2018-07-27'),
-('Mission: Impossible – Dead Reckoning Part One', 'Action', 163, 'English', 4, '2023-07-12'),
+('Mission: Impossible â€“ Ghost Protocol', 'Action', 132, 'English', 5, '2011-12-16'),
+('Mission: Impossible â€“ Rogue Nation', 'Action', 131, 'English', 5, '2015-07-31'),
+('Mission: Impossible â€“ Fallout', 'Action', 147, 'English', 5, '2018-07-27'),
+('Mission: Impossible â€“ Dead Reckoning Part One', 'Action', 163, 'English', 4, '2023-07-12'),
 
 ('The Lord of the Rings: The Fellowship of the Ring', 'Fantasy', 168, 'English', 5, '2001-12-19'),
 ('The Lord of the Rings: The Two Towers', 'Fantasy', 169, 'English', 5, '2002-12-18'),
@@ -330,8 +330,8 @@ Insert Into Movie (Title, Genre, Duration, Language, Rating, ReleaseDate) Values
 
 ('The Hunger Games', 'Action', 142, 'English', 4, '2012-03-23'),
 ('The Hunger Games: Catching Fire', 'Action', 146, 'English', 5, '2013-11-22'),
-('The Hunger Games: Mockingjay – Part 1', 'Action', 123, 'English', 3, '2014-11-21'),
-('The Hunger Games: Mockingjay – Part 2', 'Action', 137, 'English', 3, '2015-11-20'),
+('The Hunger Games: Mockingjay â€“ Part 1', 'Action', 123, 'English', 3, '2014-11-21'),
+('The Hunger Games: Mockingjay â€“ Part 2', 'Action', 137, 'English', 3, '2015-11-20'),
 
 ('Joker', 'Drama', 122, 'English', 5, '2019-10-04'),
 ('Oppenheimer', 'Drama', 170, 'English', 5, '2023-07-21'),
@@ -348,7 +348,7 @@ Insert Into Movie (Title, Genre, Duration, Language, Rating, ReleaseDate) Values
 
 -- FOR STAFFSHIFT TABLE (100)
 
--- January 2025 (5 days × 4 shifts)
+-- January 2025 (5 days Ã— 4 shifts)
 INSERT INTO staffshift (ShiftName, DateAssigned) VALUES
 ('Morning', '2025-01-01'), ('Afternoon', '2025-01-01'), ('Evening', '2025-01-01'), ('Night', '2025-01-01'),
 ('Morning', '2025-01-02'), ('Afternoon', '2025-01-02'), ('Evening', '2025-01-02'), ('Night', '2025-01-02'),
@@ -481,7 +481,7 @@ Insert Into Staff (Name, Role, ShiftID, HallID, Phone) VALUES
 ('Lungi Ngidi', 'Security', 50, 2, '555-205-1010');
 
 
--- Staff assigned to ShiftID 51–100 (repeating the first 50 with new ShiftIDs)
+-- Staff assigned to ShiftID 51â€“100 (repeating the first 50 with new ShiftIDs)
 Insert Into Staff (Name, Role, ShiftID, HallID, Phone) VALUES
 ('Sarfraz Ahmed', 'Box Office Staff', 51, 1, '555-201-1051'),
 ('Babar Azam', 'Ticket Checker', 52, 2, '555-201-1052'),
@@ -728,7 +728,7 @@ Insert Into Customer (FullName, Email, Phone, Gender) Values
 ('Vishal Mishra', 'vishal.mishra@example.com', '03001234679', 'Male'),
 ('Shraddha Pandit', 'shraddha.pandit@example.com', '03001234680', 'Female'),
 ('Avneet Khurmi', 'avneet.k@example.com', '03001234681', 'Female'),
-('Nikhil D’Souza', 'nikhil.dsouza@example.com', '03001234682', 'Male'),
+('Nikhil Dâ€™Souza', 'nikhil.dsouza@example.com', '03001234682', 'Male'),
 ('Sunali Rathod', 'sunali.rathod@example.com', '03001234683', 'Female'),
 ('Sidhu Moose Wala', 'sidhu.moosewala@example.com', '03001234684', 'Male'),
 ('J Star', 'j.star@example.com', '03001234685', 'Male'),
@@ -755,7 +755,7 @@ Insert Into Customer (FullName, Email, Phone, Gender) Values
 ('Drake', 'drake@example.com', '03001234703', 'Male'),
 ('Ariana Grande', 'ariana.grande@example.com', '03001234704', 'Female'),
 ('Kanye West', 'kanye.west@example.com', '03001234705', 'Male'),
-('Beyoncé', 'beyonce@example.com', '03001234706', 'Female'),
+('BeyoncÃ©', 'beyonce@example.com', '03001234706', 'Female'),
 ('Post Malone', 'post.malone@example.com', '03001234707', 'Male'),
 ('Rihanna', 'rihanna@example.com', '03001234708', 'Female'),
 ('Lil Wayne', 'lil.wayne@example.com', '03001234709', 'Male'),
@@ -900,7 +900,7 @@ INSERT INTO Customer (FullName, Email, Phone, Gender) VALUES
 ('Jeremy Renner', 'jeremy.r@example.com', '03001234845', 'Male'),
 ('Amy Adams', 'amy.adams@example.com', '03001234846', 'Female'),
 ('Chris Pratt', 'chris.p@example.com', '03001234847', 'Male'),
-('Chloë Grace Moretz', 'chloe.m@example.com', '03001234848', 'Female'),
+('ChloÃ« Grace Moretz', 'chloe.m@example.com', '03001234848', 'Female'),
 ('Michael B. Jordan', 'michael.j@example.com', '03001234849', 'Male'),
 ('Saoirse Ronan', 'saoirse.r@example.com', '03001234850', 'Female'),
 ('Tobey Maguire', 'tobey.m@example.com', '03001234851', 'Male'),
@@ -914,7 +914,7 @@ INSERT INTO Customer (FullName, Email, Phone, Gender) VALUES
 ('Tom Holland', 'tom.holland@example.com', '03001234859', 'Male'),
 ('Brie Larson', 'brie.l@example.com', '03001234860', 'Female'),
 ('Rami Malek', 'rami.malek@example.com', '03001234861', 'Male'),
-('Zoë Kravitz', 'zoe.k@example.com', '03001234862', 'Female'),
+('ZoÃ« Kravitz', 'zoe.k@example.com', '03001234862', 'Female'),
 ('Idris Elba', 'idris.e@example.com', '03001234863', 'Male'),
 ('Mandy Moore', 'mandy.m@example.com', '03001234864', 'Female'),
 ('Jared Leto', 'jared.l@example.com', '03001234865', 'Male'),
@@ -945,7 +945,7 @@ INSERT INTO Customer (FullName, Email, Phone, Gender) VALUES
 ('Zooey Deschanel', 'zooey.d@example.com', '03001234890', 'Female'),
 ('Josh Hutcherson', 'josh.h@example.com', '03001234891', 'Male'),
 ('Nina Dobrev', 'nina.d@example.com', '03001234892', 'Female'),
-('Bill Skarsgård', 'bill.s@example.com', '03001234893', 'Male'),
+('Bill SkarsgÃ¥rd', 'bill.s@example.com', '03001234893', 'Male'),
 ('Amber Heard', 'amber.h@example.com', '03001234894', 'Female'),
 ('Aaron Taylor-Johnson', 'aaron.tj@example.com', '03001234895', 'Male'),
 ('Elisabeth Moss', 'elisabeth.m@example.com', '03001234896', 'Female'),
@@ -4135,17 +4135,17 @@ END;
 
 UPDATE [Order]
 SET CustomerID = CASE
-    WHEN OrderID BETWEEN 1 AND 800 THEN ((OrderID - 1) / 2 + 1)  -- Customer 1–400 (2 orders each)
-    WHEN OrderID BETWEEN 801 AND 900 THEN OrderID - 800         -- Customer 1–50
-    WHEN OrderID BETWEEN 901 AND 1000 THEN OrderID - 900        -- Customer 1–50 again
+    WHEN OrderID BETWEEN 1 AND 800 THEN ((OrderID - 1) / 2 + 1)  -- Customer 1â€“400 (2 orders each)
+    WHEN OrderID BETWEEN 801 AND 900 THEN OrderID - 800         -- Customer 1â€“50
+    WHEN OrderID BETWEEN 901 AND 1000 THEN OrderID - 900        -- Customer 1â€“50 again
     ELSE CustomerID
 END;
 
 UPDATE Feedback
 SET CustomerID = CASE
-    WHEN FeedbackID BETWEEN 1 AND 400 THEN FeedbackID         -- Customer 1–400
-    WHEN FeedbackID BETWEEN 401 AND 450 THEN FeedbackID - 400 -- Customer 1–50
-    WHEN FeedbackID BETWEEN 451 AND 500 THEN FeedbackID - 450 -- Customer 1–50 again
+    WHEN FeedbackID BETWEEN 1 AND 400 THEN FeedbackID         -- Customer 1â€“400
+    WHEN FeedbackID BETWEEN 401 AND 450 THEN FeedbackID - 400 -- Customer 1â€“50
+    WHEN FeedbackID BETWEEN 451 AND 500 THEN FeedbackID - 450 -- Customer 1â€“50 again
     ELSE CustomerID
 END;
 
@@ -4232,7 +4232,7 @@ JOIN FoodItem F ON OD.FoodItemID = F.FoodItemID
 GROUP BY C.FullName
 ORDER BY TotalSpent DESC;
 
---(3) 7 Most Popular Food Items for ‘Interstellar’ film
+--(3) 7 Most Popular Food Items for â€˜Interstellarâ€™ film
 SELECT TOP 7 F.ItemName, SUM(OD.Quantity) AS TotalOrdered
 FROM Movie M
 JOIN Show S ON M.MovieID = S.MovieID
@@ -4358,7 +4358,7 @@ JOIN Booking B ON T.BookingID = B.BookingID
 JOIN [Order] O ON B.CustomerID = O.CustomerID
 JOIN OrderDetail OD ON O.OrderID = OD.OrderID
 GROUP BY Sh.StartTime
-ORDER BY FoodItemsSold DESC;
+ORDER BY FoodItemsSoldÂ DESC;
 
 
 --(11) Total number of tickets Shah Rukh Khan Booked for Fantasy Movie
